@@ -1,0 +1,16 @@
+{
+  "name": "lesson_2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test1": "tsc testfile.ts -t ES5 ",
+    "test2": "tsc testfile.ts --removeComments",
+    "test3": "tsc testfile.ts -outDir Compiled"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.6.3"
+  }
+}
